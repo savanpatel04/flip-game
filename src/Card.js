@@ -15,7 +15,7 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
-          src="/image/back.png"
+          src="public/image/back.png"
           alt="card back"
         />
         </div>
