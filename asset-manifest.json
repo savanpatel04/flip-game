@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/savanpatel04/flip-game/static/css/main.ad7bb4c5.css",
+    "main.js": "/savanpatel04/flip-game/static/js/main.35a8bf31.js",
+    "static/js/453.184785b8.chunk.js": "/savanpatel04/flip-game/static/js/453.184785b8.chunk.js",
+    "index.html": "/savanpatel04/flip-game/index.html",
+    "main.ad7bb4c5.css.map": "/savanpatel04/flip-game/static/css/main.ad7bb4c5.css.map",
+    "main.35a8bf31.js.map": "/savanpatel04/flip-game/static/js/main.35a8bf31.js.map",
+    "453.184785b8.chunk.js.map": "/savanpatel04/flip-game/static/js/453.184785b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad7bb4c5.css",
+    "static/js/main.35a8bf31.js"
+  ]
+}
