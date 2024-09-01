@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(216, 200, 200);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card-grid {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  gap: 10px;
+  margin: 10px;
+ }
+
+ .simple-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  background-color: #733939;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  animation: bounce 2s infinite;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.celebration {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #081359; /* Bright yellow background */
+  color: #ffffff; /* Dark text color */
+  font-size: 24px; /* Bigger text */
+  font-weight: bold;
+  padding: 60px 40px; /* Larger padding */
+  border-radius: 20px; /* Rounded corners */
+  z-index: 1000; /* Ensure it appears on top of everything */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  animation: celebrationAnimation 3s ease-in-out; 
+  text-align: center;
+}
+
+@keyframes celebrationAnimation {
+  0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
+  50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
 }
