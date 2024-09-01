@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flip-game/static/css/main.ad7bb4c5.css",
-    "main.js": "/flip-game/static/js/main.d893f51b.js",
+    "main.js": "/flip-game/static/js/main.a0815443.js",
     "static/js/453.184785b8.chunk.js": "/flip-game/static/js/453.184785b8.chunk.js",
     "index.html": "/flip-game/index.html",
     "main.ad7bb4c5.css.map": "/flip-game/static/css/main.ad7bb4c5.css.map",
-    "main.d893f51b.js.map": "/flip-game/static/js/main.d893f51b.js.map",
+    "main.a0815443.js.map": "/flip-game/static/js/main.a0815443.js.map",
     "453.184785b8.chunk.js.map": "/flip-game/static/js/453.184785b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad7bb4c5.css",
-    "static/js/main.d893f51b.js"
+    "static/js/main.a0815443.js"
   ]
 }
