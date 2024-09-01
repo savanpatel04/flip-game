@@ -15,7 +15,11 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
+<<<<<<< HEAD
           src="public/image/back.png"
+=======
+          src={process.env.PUBLIC_URL + "/image/back.png"}
+>>>>>>> 47ce11b (footer-added)
           alt="card back"
         />
         </div>

@@ -4,12 +4,12 @@ import Card from './Card.js';
 import './App.css';
 
 const cardImages = [
-  { src: "/image/cat.png", matched: false },
-  { src: "/image/horse.png", matched: false },
-  { src: "/image/dog.png", matched: false },
-  { src: "/image/bull.png", matched: false },
-  { src: "/image/lion.png", matched: false },
-  { src: "/image/elephant.png", matched: false }
+  { src: process.env.PUBLIC_URL + "/image/cat.png", matched: false },
+  { src: process.env.PUBLIC_URL + "/image/horse.png", matched: false },
+  { src: process.env.PUBLIC_URL + "/image/dog.png", matched: false },
+  { src: process.env.PUBLIC_URL + "/image/bull.png", matched: false },
+  { src: process.env.PUBLIC_URL + "/image/lion.png", matched: false },
+  { src: process.env.PUBLIC_URL + "/image/elephant.png", matched: false }
 ];
 
 function App() {
@@ -114,6 +114,8 @@ function App() {
       <p>Turns: {turns}</p>
       <button className="simple-button" onClick={shuffleCards}>New Game</button>
       {showCelebration && <div className="celebration">Congratulations! All Cards Matched!</div>}
+
+      <p className="footer">Copyright &#169; 2024 Savan Desai. All Rights Reserved.</p>
     </div>
   );
 }
